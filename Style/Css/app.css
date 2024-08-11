@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "TTNorms-Regular";
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
