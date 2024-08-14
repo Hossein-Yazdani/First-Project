@@ -193,3 +193,81 @@ body {
     justify-content: center;
     margin-top: 6.2rem;
 }
+.footer_container{
+    background-color: #2F5BEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.91rem;
+}
+.footer_container_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_container_head_span{
+    font-family: "TTNorms-Medium";
+    font-size: 3rem;
+    color: #ffff;
+    margin-top: 5.7rem;
+    font-weight: 600;
+}
+.footer_container_head_p{
+    font-family: "TTNorms-Light";
+    font-size: 1.4rem;
+    color: #ffff;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.footer_container_mianPart_commentBoxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13.25rem;
+  margin-top: 8.2rem;
+  gap: 3.2rem;
+}
+.footer_container_mianPart_commentBoxes_B1,.footer_container_mianPart_commentBoxes_B2,.footer_container_mianPart_commentBoxes_B3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+.footer_container_mianPart_commentBoxes_B1_P,.footer_container_mianPart_commentBoxes_B2_P,.footer_container_mianPart_commentBoxes_B3_P{
+    font-family: "Times-Italic";
+    font-size: 1.4rem;
+    color: #7E8085;
+    padding-right: 0.9rem;
+    padding-left: 1.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 7.2rem;
+}
+.footer_container_mianPart_commentBoxes_B1_information,.footer_container_mianPart_commentBoxes_B2_information,.footer_container_mianPart_commentBoxes_B3_information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    padding-right: 2.5rem;
+    border-top:0.1rem solid  #E8EBEF;
+}
+.footer_container_mianPart_commentBoxes_B1_information_img,.footer_container_mianPart_commentBoxes_B2_information_img,.footer_container_mianPart_commentBoxes_B3_information_img{
+    padding-bottom: 0.8rem;
+    padding-top: 0.95rem;
+}
+.footer_container_mianPart_commentBoxes_B1_information_name,.footer_container_mianPart_commentBoxes_B2_information_name,.footer_container_mianPart_commentBoxes_B3_information_name{
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    padding-top: 1.45rem;
+}
+.footer_container_legos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.2rem;
+    margin-bottom: 6.36rem;
+}
