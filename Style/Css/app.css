@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  /* position: relative; */
 }
 body {
   font-family: "TTNorms-Regular";
@@ -93,6 +94,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 4.4rem;
+  max-width: 70%;
 }
 .header_rightSide_explanation {
   text-wrap: wrap;
@@ -100,10 +102,12 @@ body {
   margin-bottom: 0;
   line-height: 3rem;
   color: #6c7890;
+  max-width: 60%;
 }
 .header_rightSide_btn {
   display: flex;
   gap: 1.1rem;
+  flex-wrap: wrap;
 }
 .header_rightSide_btn1 {
   width: 15rem;
@@ -135,6 +139,11 @@ body {
   color: #ffff;
   word-spacing: 0.2rem;
 }
+.header_leftSide{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
 .mianPart_Head {
   display: flex;
   flex-direction: column;
@@ -154,6 +163,8 @@ body {
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 0;
+  text-align: center;
+  
 }
 .mianPart_Head_middle {
   display: flex;
@@ -164,30 +175,40 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .mianPart_Head_middle_box1_span {
   font-size: 1.8rem;
+  
 }
 .mianPart_Head_middle_box1_p {
   text-wrap: wrap;
   color: #6c7890;
+  max-width: 55%;
+  
+ 
 }
 .mianPart_Head_middle_box2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .mianPart_Head_middle_box2_span {
   font-size: 1.8rem;
+  
 }
 .mianPart_Head_middle_box2_p {
   text-wrap: wrap;
   color: #6c7890;
+  max-width: 55%;
+  
 }
 .mianPart_Head_middle_box3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .mianPart_Head_middle_box3_span {
   font-size: 1.8rem;
@@ -195,6 +216,7 @@ body {
 .mianPart_Head_middle_box3_p {
   text-wrap: wrap;
   color: #6c7890;
+  max-width: 55%;
 }
 .mianPart_Footer {
   display: flex;
@@ -387,4 +409,28 @@ body {
 .footer_finalPart_rights {
   color: #6c7890;
   font-size: 1.4rem;
+}
+.topBar_rightSide_icon_mobile_bar{
+  display: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.close{
+  display: none;
+  cursor: pointer;
+  
+}
+ .open{
+  position: relative;
+  position: sticky;
+ }
+ .close{
+  position: sticky;
+ }
+ .icon-close{
+  position: fixed;
+  top: 15px;
+ }
+ .icon-close{
+  display: none;
 }
